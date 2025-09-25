@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grand Theft Coin ($GTC) - Your Portfolio's Five-Star Wanted Level</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ✅ Navigation -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <i class="fa-solid fa-coins"></i> GTC
+      </div>
+      <ul class="nav-links">
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#tokenomics">Tokenomics</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#how-to-buy">How to Buy</a></li>
+      </ul>
+      <div class="nav-cta">
+        <button class="buy-btn">Buy Now</button>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-discord"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ Hero -->
+  <section class="hero">
+    <div class="falling-money" id="falling-money"></div>
+    <div class="hero-content">
+      <h1>Grand Theft Coin</h1>
+      <h2>Your Portfolio's Five-Star Wanted Level</h2>
+      <div class="hero-btns">
+        <a href="#how-to-buy" class="btn btn-primary">How to Buy</a>
+        <a href="#tokenomics" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Mission -->
+  <section class="mission" id="mission">
+    <div class="container">
+      <h2 class="section-title">Our Mission</h2>
+      <div class="mission-content">
+        <div class="mission-video">
+          <video autoplay muted loop>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="mission-text">
+          <p>
+            At <span class="highlight">$GTC</span>, we bring the chaos, excitement, and thrill of the open world into the world of crypto.
+          </p>
+          <p>
+            Our mission is to revolutionize the meme coin market with a project that’s bold, entertaining, and rewarding for the community.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Tokenomics -->
+  <section class="tokenomics" id="tokenomics">
+    <div class="container">
+      <h2 class="section-title">Tokenomics</h2>
+      <div class="tokenomics-grid">
+        <div class="token-card">
+          <div class="token-icon"><i class="fa-solid fa-coins"></i></div>
+          <h3>Supply</h3>
+          <p>1,000,000,000 $GTC</p>
+        </div>
+        <div class="token-card">
+          <div class="token-icon"><i class="fa-solid fa-fire"></i></div>
+          <h3>Burn Mechanism</h3>
+          <p>Deflationary system with automatic burns.</p>
+        </div>
+        <div class="token-card">
+          <div class="token-icon"><i class="fa-solid fa-users"></i></div>
+          <h3>Community</h3>
+          <p>Strong focus on community-driven growth and governance.</p>
+        </div>
+      </div>
+
+      <div class="contract-address">
+        <h3>Contract Address</h3>
+        <div class="address-box">
+          <span class="address" id="contract-address">0x1234abcd5678efgh91011ijklmnop</span>
+          <button class="copy-btn" onclick="copyAddress()">Copy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Roadmap -->
+  <section class="roadmap" id="roadmap">
+    <div class="container roadmap-content">
+      <h2 class="section-title">Roadmap</h2>
+      <div class="timeline">
+        <div class="phase">
+          <div class="phase-content">
+            <h3>Phase 1</h3>
+            <ul>
+              <li>Launch $GTC</li>
+              <li>Community building</li>
+              <li>Website release</li>
+            </ul>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-content">
+            <h3>Phase 2</h3>
+            <ul>
+              <li>Marketing campaigns</li>
+              <li>Exchange listings</li>
+              <li>Staking introduction</li>
+            </ul>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-content">
+            <h3>Phase 3</h3>
+            <ul>
+              <li>Partnerships</li>
+              <li>GTC NFT launch</li>
+              <li>Metaverse integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ How to Buy -->
+  <section class="how-to-buy" id="how-to-buy">
+    <div class="container">
+      <h2 class="section-title">How to Buy</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-icon"><i class="fa-solid fa-wallet"></i></div>
+          <h3>Create a Wallet</h3>
+          <p>Download MetaMask or Trust Wallet.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-icon"><i class="fa-solid fa-coins"></i></div>
+          <h3>Buy ETH/BNB</h3>
+          <p>Purchase ETH or BNB on your exchange.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+          <h3>Swap for $GTC</h3>
+          <p>Use a DEX like Uniswap or PancakeSwap.</p>
+        </div>
+      </div>
+
+      <div class="final-cta">
+        <a href="#" class="btn btn-primary">Buy $GTC Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <div class="footer-content">
+      <h2 class="footer-title">Join the Gang</h2>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+      </div>
+      <p class="footer-text">Grand Theft Coin – Your Portfolio’s Five-Star Wanted Level</p>
+      <p class="disclaimer">Disclaimer: $GTC is a meme coin project. Please invest responsibly. This is not financial advice.</p>
+      <p class="copyright">© 2025 Grand Theft Coin. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
